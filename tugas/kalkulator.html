@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kalkulator Sederhana</title>
+  </head>
+  <body>
+    <h1>Kalkulator Sederhana</h1>
+
+    <label>Angka Pertama:</label>
+    <input type="number" id="angka1" />
+
+    <br /><br />
+
+    <label>Angka Kedua:</label>
+    <input type="number" id="angka2" />
+
+    <br /><br />
+
+    <button onclick="hitung('+')">+</button>
+    <button onclick="hitung('-')">-</button>
+    <button onclick="hitung('*')">*</button>
+    <button onclick="hitung('/')">/</button>
+
+    <h3>Hasil: <span id="hasil">0</span></h3>
+
+    <script src="script.js"></script>
+  </body>
+</html>
